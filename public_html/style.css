@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 10px;
+    box-sizing: border-box; /*to make child */
+    font-family: 'Poppins', sans-serif; /*The font chosen for the whole page*/
+}
+
+body{
+    background-color:#EFEFEF;
+    min-height: 100vh;
+    display: flex;
+    color:black;
+    flex-direction: column;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header{
+    display: flex;
+/*    justify-content:space-around ;*/
+    flex-wrap: wrap;
+    width: 100%;
+    position: sticky;
+    color:white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header ,footer{
+    background-color: #59738D;
+
+}
+
+div{
+    margin: 10px;
+}
+footer{
+  margin-top: auto;
+}
+
+.footcontainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1,
+.col2,
+.col3 {
+  flex-basis: 30%;
+  margin: 20px 10px;
+  
+}
+
+/* Additional styling for each column */
+.col1 h3,
+.col2 h3,
+.col3 h3 {
+  color: rgb(31, 31, 31);
+  font-size: 1.2em;
+}
+
+.col1 p,
+.col2 ul,
+.col3 p {
+  font-size: 1em;
+
+}
+.col2 li {
+  list-style: none;
+}
+
+.col2 .phone-number {
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Change the color as desired */
+}
+
+.col2 .email-address {
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Change the color as desired */
+}
