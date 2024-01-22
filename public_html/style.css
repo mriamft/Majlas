@@ -20,7 +20,7 @@ body{
 
 header{
     display: flex;
-/*    justify-content:space-around ;*/
+    justify-content:space-between ;
     flex-wrap: wrap;
     width: 100%;
     position: sticky;
