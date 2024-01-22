@@ -88,3 +88,21 @@ footer{
     text-decoration: none;
     color:white;
 }
+.btn{
+  width: 130px;
+  height: 40px;
+  margin: 10px;
+  background-color:#881817 ;
+  color: white;
+  border: 2px solid white;
+  font-size: 22px;
+  font-weight: 500;
+  transition: .4s;
+  border-radius: 7px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover{
+    background-color:#511d1bc2 ;
+}
