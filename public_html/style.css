@@ -42,9 +42,12 @@ div{
 }
 footer{
   margin-top: auto;
+  color:white;
+
 }
 
 .footcontainer {
+    
   display: flex;
   justify-content: space-between;
 }
@@ -52,6 +55,7 @@ footer{
 .col1,
 .col2,
 .col3 {
+    
   flex-basis: 30%;
   margin: 20px 10px;
   
@@ -61,7 +65,7 @@ footer{
 .col1 h3,
 .col2 h3,
 .col3 h3 {
-  color: rgb(31, 31, 31);
+        color:white;
   font-size: 1.2em;
 }
 
@@ -77,10 +81,10 @@ footer{
 
 .col2 .phone-number {
     text-decoration: none;
-    color: rgb(0, 0, 0); /* Change the color as desired */
+    color:white;
 }
 
 .col2 .email-address {
     text-decoration: none;
-    color: rgb(0, 0, 0); /* Change the color as desired */
+    color:white;
 }
