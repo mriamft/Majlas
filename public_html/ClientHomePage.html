@@ -1,15 +1,154 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="clientHome.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Client Home Page</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo" accesskey="h"><img src="image/MajlasLogo.jpg" alt="Majlas's Logo" width="250"></a>
+    </header>
+    <main>
+        
+        <div class="header1">
+            <h2>Welcome <span>Maryam</span></h2> 
+            <button type="button" onclick="window.location.href = 'index.html'">
+                Log-out
+            </button>        
+        </div>
+
+        <div class="clientInfo">
+            <p>
+                <span>Client's information:</span><br>
+                <span>First name:</span> Maryam <br>
+                <span>Last name:</span> Altuwaijri <br>
+                <span>Email address:</span> <a href="mailto:443200235@student.ksu.edu.sa">443200235@student.ksu.edu.sa</a> 
+            </p>            
+        </div>
+
+        <div class="tableContainer">
+        <div class="designer">
+            <div class="desHeader">
+                <h3>Interior Designers</h3>
+                <div class="filter">
+                    <p>Select Category:</p>
+                    <div class="dropdown">
+                        <button class="dropbtn">Category 
+                          <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                            <ul>
+                                <li>Art Moderne</li>
+                                <li>Contemporary</li>
+                                <li>Modern</li>
+                            </ul>
+                        </div>
+                      </div> 
+                    <button type="button" onclick="window.location.href = 'index.html'">
+                        Filter
+                    </button>
+                </div>
+            </div>
+
+            <table class="table1">
+                <tr>
+                    <th>Designer</th>
+                    <th>Specialty</th>
+                </tr>
+                <tr>
+                    <td class="image"><a href=""><img src="image/RahafLogo.PNG" alt="Rahaf's Logo"></a><br> <a href="" class="desName">Rahaf Alateeq</a></td>
+                    <td>Contemporary, <br>Modren</td>
+                    <td><a href="">Request Design Consultation</a></td>
+                </tr>
+                <tr>
+                    <td class="image"><a href=""><img src="image/khadijaLogo.PNG" alt="Rahaf's Logo"></a><br> <a href="" class="desName">Khadija Altuwaijri</a></td>
+                    <td>Art Moderne, <br>Scandinavian</td>
+                    <td><a href="">Request Design Consultation</a></td>
+                </tr>
+            </table>
+        </div>
+        </div>
+
+        <div class="tableContainer">
+        <div class="conRequest">
+            <h3>Previous Design Consultation Request</h3>
+            <table>
+                <tr>
+                    <th>Designer</th>
+                    <th>Room</th>
+                    <th>Dimensions</th>
+                    <th>Design Category</th>
+                    <th>Color Preferences</th>
+                    <th>Request Date</th>
+                    <th>Design Consultation</th>
+                </tr>
+                <tr>
+                    <td><a href=""><img src="image/Tomsent.jpg" alt="Tomsent's Logo"></a><br><a href="" class="desName">Tomsent Furniture</a></td>
+                    <td>Living Room</td>
+                    <td>4x5m</td>
+                    <td>Modren</td>
+                    <td>Blue and Whit</td>
+                    <td>1/2/2023</td>
+                    <td>Pending Consultation</td>
+                </tr>
+                <tr>
+                    <td><a href=""><img src="image/khadijaLogo.PNG" alt="Rahaf's Logo"></a><br> <a href="" class="desName">Khadija Altuwaijri</a></td>
+                    <td>Bed Room</td>
+                    <td>3x4m</td>
+                    <td>Coastal</td>
+                    <td>Beige and Green</td>
+                    <td>30/12/2023</td>
+                    <td>Consultation Declined</td>
+                </tr>
+                <tr>
+                    <td><a href=""><img src="image/RahafLogo.PNG" alt="Rahaf's Logo"></a><br> <a href="" class="desName">Rahaf Alateeq</a></td>
+                    <td>Kitchen</td>
+                    <td>3x4m</td>
+                    <td>Minimalist</td>
+                    <td>Gray and White</td>
+                    <td>1/1/2024</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+        </div>
+
+        
+    </main>
+
+    <footer>
+    <div class="footcontainer">
+        <div class="col1"> <!--for the right most column*/-->
+            <h3>Majlas's Story</h3>
+            <p>Majlas embarked on a journey of innovation, shaping the digital realm with their visionary ideas.</p>
+        </div>
+
+        <var></var>
+        
+        <div class="col2">
+            <h3>Contact us</h3>
+            <ul>
+                <li><a href="tel:+0543080394"><img src="image/phone.png" alt="Phone call"> <span class="phone-number">0543080394</span></a></li>
+                <li><a href="mailto:Majlas@info.com"><img src="image/email.png" alt="Email Message"> <span class="email-address">Majlas@info.com</span></a></li>
+            </ul>
+            <span>&copy; All rights reserved 2023-2024</span>
+        </div>
+
+        <div class="col3"> <!--for the left most column*/-->
+            <h3>Address</h3>
+            <p>Saudi Arabia, Riyadh, King Saud University, Information Technology department IT329</p>
+            <p>Privacy - Term</p>
+
+        </div>
+    </div>
+    
+</footer>
+    
+    
+</body>
 </html>

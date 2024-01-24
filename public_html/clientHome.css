@@ -1,0 +1,132 @@
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+table{
+  border-radius: 7px;
+
+}
+
+
+.header1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #881817;
+}
+
+.header1 span{
+  color: black;
+  font-weight: 400;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin: 0;
+}
+
+.dropdown-content li{
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  margin: 0;
+
+}
+
+.dropdown-content li:hover {
+  background-color: #ddd;
+  margin: 0;
+
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin: 0;
+
+}
+
+.clientInfo{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin: 20px;
+  box-shadow: 3px 4px 5px #59738da1;
+  transition: 0.5s ease;
+}
+
+.clientInfo p :first-child{
+  font-size: 1.5rem;
+}
+
+.clientInfo span{
+  font-weight: bolder;
+  color:#881817;
+}
+
+
+.clientInfo a{
+  text-decoration: none;
+  color: black;
+}
+
+.clientInfo:hover{
+  transform: scale(1.05);
+  background-color: #59738d77;
+}
+
+/*////////////////////////////////////////////*/
+.desHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+
+}
+
+.filter{
+  display: flex;
+  align-items: center;
+}
+
+table{
+  width: 100%;
+  margin: auto;
+}
+table tr td img{
+  width: 10em;
+}
+
+table tr :not(:has(img)){
+  font-size: 1.3rem;
+  transition: 0.5s ease;
+
+}
+
+
+table tr td:not(:has(img)):hover {
+  font-size: 1.4rem;
+  padding: 0;
+}
+
+table th{
+  background-color: #59738D;
+  color: #EFEFEF;
+}
+
+.conRequest{
+  font-size: 1.3rem;
+
+}
