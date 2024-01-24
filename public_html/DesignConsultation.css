@@ -1,0 +1,58 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 24, 2024, 9:38:40 PM
+    Author     : alzeghaibi.
+*/
+
+h1{
+    text-align: center;
+}
+
+div{
+    text-align: center;
+}
+/*For the box that contain RequestInformation*/
+#RequestInformationData{
+    border: 2px solid black;
+    margin: auto;
+    padding: 10px; 
+    height: fit-content;
+    width: 400px;
+    text-align: left; /*line8 will be override*/
+    font-weight: lighter;
+}
+
+#ConsultationData{
+    border: 2px solid black;
+    padding: 10x;
+    margin: auto;
+    width: 400px;   
+    padding: 10px; 
+    height: 90px;
+}
+
+#file:hover{
+    color:black ;
+}
+#Send{
+    width: 50px;
+    height: 30px;
+    font-size:medium;
+    font-weight:450;
+    background-color: #EFEFEF;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+}
+#Send:hover{
+    background-color: #EFEFEF;
+    color: white;
+
+}
+label{
+    font-size: large;
+    font-weight: bold;
+}

@@ -3,13 +3,83 @@
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
 -->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="DesignConsultation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Design Consultation</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo" accesskey="h"><img src="image/MajlasLogo.jpg" alt="Majlas's Logo" width="300" height="150"></a>
+        <a href="login.html" class="btn">Log In</a>
+    </header>
+    <main>
+        <br>
+        <h1>Design Consultation</h1>
+        <div id="RequestInformation">
+        <h2>Request Information</h2>
+        <div id="RequestInformationData">
+            <p>Client: Sarah Ahmed <br> 
+            Room: Living Room<br>
+            Dimensuins: 4x5m<br>
+            Design Preferences: Beige and Green<br>
+            Date: 9/1/2024
+            </p>
+        </div>
+    </div>
+    <div id="Consultation">
+        <h2>Consultation:</h2>
+        <div id="ConsultationData">
+
+        </div>
+    </div>
+    <div id="UploadImage">
+        <form action="" method="post">
+            <label>Upload Image:
+            <input type="file" name="ConsultationImage" id="file"></label>
+            <br>
+            <br>
+            <button id="Send" onclick="redirect(); return false;">Send</button>
+        </form>
+    </div>
+    </main>
+    <footer>
+    <div class="footcontainer">
+        <div class="col1"> <!--for the right most column*/-->
+            <h3>Majlas's Story</h3>
+            <p>Majlas embarked on a journey of innovation, shaping the digital realm with their visionary ideas.</p>
+        </div>
+
+        <var></var>
+        
+        <div class="col2">
+            <h3>Contact us</h3>
+            <ul>
+                <li><a href="tel:+0543080394"><img src="image/phone.png" alt="Phone call"> <span class="phone-number">0543080394</span></a></li>
+                <li><a href="mailto:Majlas@info.com"><img src="image/email.png" alt="Email Message"> <span class="email-address">Majlas@info.com</span></a></li>
+            </ul>
+            <span>&copy; All rights reserved 2023-2024</span>
+        </div>
+
+        <div class="col3"> <!--for the left most column*/-->
+            <h3>Address</h3>
+            <p>Saudi Arabia, Riyadh, King Saud University, Information Technology department IT329</p>
+            <p>Privacy - Term</p>
+
+        </div>
+    </div>
+    
+</footer>
+    
+<script>
+    function redirect(){
+        location.replace("DesignerHomePage.html");
+    }
+</script>
+</body>
 </html>
