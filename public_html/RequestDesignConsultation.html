@@ -41,7 +41,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <br>
         <label>
             Design category: 
-            <!--what id the options-->
             <select name="DesignCategory" id="DesignCategory" required>
                     <option disabled selected name="DesignCategory" >Design Category</option>
                     <option value="modern" name="DesignCategory" >Modern</option>
@@ -55,8 +54,10 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <label>
             Color preferences: <input type="text" name="Color" class="text">
         </label>
-        <br>
-        <button type="button" id="Send" onclick="redirect()">Send</button>
+        <br><br>
+        
+            <button type="button" onclick="window.location.href = 'ClientHomePage.html'">
+            Send</button>
         </fieldset>
         </form>
     </main>
@@ -86,11 +87,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         </div>
     </div>
     
-</footer>
-<script>
-    function redirect(){
-        location.replace("ClientHomePage.html");
-    }
-</script>      
+</footer>    
 </body>
 </html>

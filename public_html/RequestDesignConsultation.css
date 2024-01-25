@@ -17,3 +17,8 @@ font-size: smaller;
     width:100px;
     height: 17px;;
 }
+fieldset{
+    font-size: larger;
+    height: 300px;
+    width: 500px;
+}
