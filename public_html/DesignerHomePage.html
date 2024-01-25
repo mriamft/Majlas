@@ -1,15 +1,186 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
--->
 <html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
+<head>
+    <title>Designer Homepage</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+        *{
+            font-family: sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+         tr:first-of-type th {
+            background-color: lightsteelblue;
+            color: black;
+        }
+        .house {
+            width: 200px;
+            height: 150px;
+        }
+        #designer-info{
+            border: 1px solid black;
+            padding: 13px;
+            margin: 10px;
+            margin-left: 0;
+                    }
+        #log-out{ 
+            position: absolute;
+            top: 170px;
+            right: 10px;
+            
+        
+        }
+        #Add{
+                position: absolute;
+                top: 280px;
+                right: 10px;
+        }
+        
+        a {
+            color: black;
+            font-weight: bold;
+
+        }
+        h2{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #gmail{
+            text-decoration: none;
+        }
+        .mainContant{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+ </style>
+
+</head>
+
+<body>
+  
+        <header>
+        <a href="index.html" class="logo" accesskey="h"><img src="image/MajlasLogo.jpg" alt="Majlas's Logo" width="300" height="150"></a> 
+       </header>
+       
+        <h2>Welcome Nourah</h2>
+        <section id="designer-info">
+        <h3>Nourah Ahmed -<a href="mailto:Nourah@gmail.com" id="gmail"></a> Nourah@gmail.com</h3>
+        <a id="Add" href="ProjectAddition.html">Add New Project</a>
+        </section>
+        <a id="log-out" href="index.html">Log-out</a>
+        
+        <section id="design-portfolio">
+        <h2>Design Portfolio</h2>
+        <table>
+        <tr>
+            <th>Project Name</th>
+            <th>Image</th>
+            <th>Design Category</th>
+            <th>Description</th>
+        </tr>
+
+        <tr>
+            <th>Sun House</th>
+            <th><img src="image/Sun_House.jpg" alt="Sun House" class="house"></th>
+            <th>Country</th>
+            <th><pre> Rustic white sun house that has
+ many green plants and windows 
+with a country style.</pre></th>
+            <th><a href="ProjectUpdate.html">Edit</a></th>
+            <th><a href="#">Delete</a></th>
+        </tr>
+
+        <tr>
+            <th>Home Office</th>
+            <th><img src="image/Office_House.jpeg" alt="Home Office" class="house"></th>
+            <th>Modern</th>
+            <th><pre> white and black minimalist home 
+    office with clean lines.</pre></th>
+            <th><a href="ProjectUpdate.html">Edit</a></th>
+            <th><a href="#">Delete</a></th>
+        </tr>
+        </table>
+    </section>
+        
+    <section id="consultation-requests">
+        <h2>Design Consultation Requests</h2>
+        <table>
+        <tr>
+            <th>Client</th>
+            <th>Room</th>
+            <th>Dimensions</th>
+            <th> Design Category</th>
+            <th>Color Preferences</th>
+            <th>Date</th>
+        </tr>
+
+        <tr>
+            <th>Sarah Ahmad</th>
+            <th>Living Room</th>
+            <th>4x5m</th>
+            <th>Modren</th>
+            <th>Beige and Green</th>
+            <th>9/1/2024</th>
+            <th><a href="DesignConsultation.html">Provide Consultation</a></th>
+            <th><a href="#">Decline Consultation</a></th>
+        </tr>
+        <tr>
+            <th>Ali Jamal</th>
+            <th>Bedroom</th>
+            <th>3x4m</th>
+            <th>Coastal</th>
+            <th>Blue and white</th>
+            <th>15/1/2024</th>
+            <th><a href="DesignConsultation.html">Provide Consultation</a></th>
+            <th><a href="#">Decline Consultation</a></th>
+        </tr>
+       </table>
+    </section>
+
+    <footer>
+        <div class="footcontainer">
+            <div class="col1"> 
+                <h3>Majlas's Story</h3>
+                <p>Majlas embarked on a journey of innovation, shaping the digital realm with their visionary ideas.</p>
+            </div>
+    
+            <var></var>
+            
+            <div class="col2">
+                <h3>Contact us</h3>
+                <ul>
+                    <li><a href="tel:+0543080394"><img src="image/phone.png" alt="Phone call"> <span class="phone-number">0543080394</span></a></li>
+                    <li><a href="mailto:Majlas@info.com"><img src="image/email.png" alt="Email Message"> <span class="email-address">Majlas@info.com</span></a></li>
+                </ul>
+                <span>&copy; All rights reserved 2023-2024</span>
+            </div>
+    
+            <div class="col3">
+                <h3>Address</h3>
+                <p>Saudi Arabia, Riyadh, King Saud University, Information Technology department IT329</p>
+                <p>Privacy - Term</p>
+    
+            </div>
+        </div>
+        
+    </footer>
+</body>
 </html>
