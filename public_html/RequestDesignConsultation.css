@@ -1,0 +1,19 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 25, 2024, 7:35:06 PM
+    Author     : alzeghaibi.
+*/
+
+*{
+    text-align: center;
+}
+#note{
+font-size: smaller;
+}
+.text{
+    width:100px;
+    height: 17px;;
+}
