@@ -32,10 +32,6 @@ div{
     height: 90px;
 }
 
-#file:hover{
-    color:black ;
-}
-
 label{
     font-size: large;
     font-weight: bold;
