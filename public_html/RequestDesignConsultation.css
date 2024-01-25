@@ -18,7 +18,10 @@ font-size: smaller;
     height: 17px;;
 }
 fieldset{
-    font-size: larger;
+    font-size: x-large;
     height: 300px;
     width: 500px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 10px; 
 }

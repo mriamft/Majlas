@@ -26,7 +26,6 @@ div{
 
 #ConsultationData{
     border: 2px solid black;
-    padding: 10x;
     margin: auto;
     width: 400px;   
     padding: 10px; 
@@ -36,22 +35,7 @@ div{
 #file:hover{
     color:black ;
 }
-/*
-#Send{
-    width: 50px;
-    height: 30px;
-    font-size:medium;
-    font-weight:450;
-    background-color: #EFEFEF;
-    border: 1px solid black;
-    border-radius: 10px;
-    color: black;
-}
-#Send:hover{
-    background-color: #EFEFEF;
-    color: white;
 
-}*/
 label{
     font-size: large;
     font-weight: bold;
