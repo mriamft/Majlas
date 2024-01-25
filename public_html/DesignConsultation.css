@@ -24,15 +24,12 @@ div{
     font-weight: lighter;
 }
 
-#ConsultationData{
-    border: 2px solid black;
+form{
     margin: auto;
-    width: 400px;   
     padding: 10px; 
-    height: 90px;
 }
 
 label{
-    font-size: large;
-    font-weight: bold;
+    font-size: larger;
+    font-weight: bolder;
 }
