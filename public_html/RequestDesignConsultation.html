@@ -28,7 +28,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             <br>
             <label>Room Type: 
             <select name="roomType" id="roomType" required >
-                <option disabled selected>Room Type</option>
+                <!--placeholder -->
+                <option disabled selected value="">Room Type</option>
                 <option value="Bedroom">Bedroom</option>
                 <option value="Kitchen">Kitchen</option>
                 <option value="LivingRoom">Living Room</option>
@@ -36,13 +37,13 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
             </select>
             </label>
         <br>
-        <label>Room dimensions<span id="note"> (in meter)</span>:<input type="text" name="dimensions" class="text">
+        <label>Room dimensions<span id="note"> (in meter)</span>:<input type="text" name="dimensions" class="text" required>
         </label>
         <br>
         <label>
             Design category: 
             <select name="DesignCategory" id="DesignCategory" required>
-                    <option disabled selected>Design Category</option>
+                <option disabled selected value="">Design Category</option>
                     <option value="modern">Modern</option>
                     <option value="mid-centuryModern">Mid-century modern</option>
                     <option value="traditional">Traditional</option>
@@ -52,7 +53,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         </label>
         <br>
         <label>
-            Color preferences: <input type="text" name="Color" class="text">
+            Color preferences: <input type="text" name="Color" class="text" required>
         </label>
         <br><br>
         
