@@ -22,8 +22,13 @@ div{
     width: 400px;
     text-align: left; /*line8 will be override*/
     font-weight: lighter;
+    transition: 0.5s ease;
+    border-radius:10px; 
 }
-
+#RequestInformationData:hover{
+    transform: scale(1.05);
+    background-color: #59738d77;
+}
 form{
     margin: auto;
     padding: 10px; 
