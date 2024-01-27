@@ -1,0 +1,125 @@
+
+.header1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  color: #881817;
+}
+
+.header1 span{
+  color: black;
+  font-weight: 400;
+
+}
+
+.designer-info{
+  padding: 10px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin: 20px;
+  box-shadow: 3px 4px 5px #59738da1;
+  transition: 0.5s ease;
+}
+
+.designer-info p :first-child{
+  font-size: 1.5rem;
+}
+
+.designer-info span{
+  font-weight: bolder;
+  color:#881817;
+}
+
+
+.designer-info a{
+  text-decoration: none;
+  color: black;
+}
+
+.designer-info:hover{
+  transform: scale(1.05);
+  background-color: #59738d77;
+}
+
+.desHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+
+}
+
+.add{
+  display: flex;
+  align-items: center;
+}
+
+ .designer-info{
+  width: 80%;
+  margin: auto;
+}
+
+
+table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 15px;
+            margin-top: 5px;
+        }
+        
+        th, td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid black;
+        }
+        
+        th {
+            background-color: #f2f2f2;
+        }
+         tr:first-of-type th {
+            background-color: #59738D;
+            color: #EFEFEF;
+        }
+        .house {
+            width: 200px;
+            height: 150px;
+        }
+/*        .designer-info{
+            border: 1px solid black;
+            padding: 13px;
+            margin: 10px;
+            margin-left: 0;
+        }
+        #log-out{ 
+            position: absolute;
+            top: 170px;
+            right: 10px;
+            
+        
+        }*/
+/*        .add{
+                position: absolute;
+                top: 280px;
+                right: 10px;
+        }*/
+        
+        a {
+            color: black;
+            font-weight: bold;
+
+        }
+        h2{
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        #gmail{
+            text-decoration: none;
+        }
+        .mainContant{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+

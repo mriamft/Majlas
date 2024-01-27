@@ -4,91 +4,37 @@
     <title>Designer Homepage</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="x-icon" href="image/tapImage.PNG">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="designerHome.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-        *{
-            font-family: sans-serif;
-        }
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-bottom: 15px;
-            margin-top: 5px;
-        }
-        
-        th, td {
-            padding: 10px;
-            text-align: center;
-            border: 1px solid black;
-        }
-        
-        th {
-            background-color: #f2f2f2;
-        }
-         tr:first-of-type th {
-            background-color: lightsteelblue;
-            color: black;
-        }
-        .house {
-            width: 200px;
-            height: 150px;
-        }
-        #designer-info{
-            border: 1px solid black;
-            padding: 13px;
-            margin: 10px;
-            margin-left: 0;
-                    }
-        #log-out{ 
-            position: absolute;
-            top: 170px;
-            right: 10px;
-            
-        
-        }
-        #Add{
-                position: absolute;
-                top: 280px;
-                right: 10px;
-        }
-        
-        a {
-            color: black;
-            font-weight: bold;
-
-        }
-        h2{
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        #gmail{
-            text-decoration: none;
-        }
-        .mainContant{
-            display: flex;
-            flex-direction: column;
-            justify-content: space-around;
-        }
- </style>
-
 </head>
 
-<body>
-  
+<body>  
         <header>
         <a href="index.html" class="logo" accesskey="h"><img src="image/MajlasLogo.jpg" alt="Majlas's Logo" width="300" height="150"></a> 
        </header>
-       
-        <h2>Welcome Nourah</h2>
-        <section id="designer-info">
-        <h3>Nourah Ahmed -<a href="mailto:Nourah@gmail.com" id="gmail"></a> Nourah@gmail.com</h3>
-        <a id="Add" href="ProjectAddition.html">Add New Project</a>
-        </section>
-        <a id="log-out" href="index.html">Log-out</a>
-        
-        <section id="design-portfolio">
-        <h2>Design Portfolio</h2>
+    <main>
+        <div class="header1">
+            <h2>Welcome <span>Nourah</span></h2> 
+            <button type="button" onclick="window.location.href = 'index.html'">
+                Log-out
+            </button>        
+        </div>
+
+        <div class="designer-info">
+            <h3>Nourah Ahmed</h3>
+            <p><a href="mailto:Nourah@gmail.com" id="gmail">Nourah@gmail.com</a></p>          
+        </div>
+    
+        <div class="designer">
+            <div class="desHeader">
+                <h3>Design Portfolio</h3>
+                <div class="add">
+                    <a id="Add" href="ProjectAddition.html">Add New Project</a>
+                </div>
+            </div>
+  
         <table>
         <tr>
             <th>Project Name</th>
@@ -155,6 +101,7 @@ with a country style.</pre></th>
        </table>
     </section>
 
+    </main>
     <footer>
         <div class="footcontainer">
             <div class="col1"> 
