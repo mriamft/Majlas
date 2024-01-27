@@ -101,8 +101,8 @@ table{
   align-items: center;
 }
 
-table{
-  width: 100%;
+.table1 , .desHeader , .clientInfo{
+  width: 80%;
   margin: auto;
 }
 table tr td img{
