@@ -1,0 +1,39 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : Jan 26, 2024, 9:09:27 PM
+    Author     : alzeghaibi.
+*/
+
+.projectPic{
+    border-top-left-radius: 43px;
+    border-top-right-radius: 43px;  
+    width:300px
+}
+.allprojects{
+
+     display: flex;
+  flex-direction: row;
+  align-items: start;
+  justify-content: space-around;
+}
+.firstProject{
+    border: solid black 2px;
+    border-radius: 43px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.SecondProject {
+    border: solid black 2px;
+    border-radius: 43px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+
+}
+.ProjectContent:hover{
+    height: auto;
+}
