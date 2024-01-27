@@ -1,0 +1,59 @@
+button{
+    background-color: white ;
+    color: #59738D;
+    border: 2px solid #59738D;
+    width: 30%;
+    height: 10%;
+    font-size: 22px;
+    font-weight: 500;
+    transition: .4s;
+    border-radius: 50px;
+    margin-right: 14em;
+    margin-top: 4em;
+    margin-left: 2em;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  button:hover{
+      background-color:rgb(255, 255, 255) ;
+      color: #59738D;
+      cursor:pointer
+    }
+
+    #Login{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: absolute; 
+        top: 300px; 
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+        border-radius: 15px;
+        width: 70%;
+        height: 120%;
+        background-image: url(image/Signin.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        box-shadow: #59738D;
+    }
+    
+    .Sign{
+        color: #ffffff ;
+        margin: 3em 14em 10em -2em;
+    }
+
+    .Sign:hover{
+        color: #aa504e;
+        cursor:pointer;
+    }
+
+    #Signin{
+        color: white;
+        font-size: 3em;
+        margin-left: 4%;
+        margin-top: -3%;
+        align-self: flex-start;
+    }
