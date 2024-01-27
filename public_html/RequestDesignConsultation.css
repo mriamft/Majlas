@@ -13,10 +13,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 #note{
 font-size: smaller;
 }
-.text{
-    width:100px;
-    height: 17px;;
-}
 fieldset{
     font-size: x-large;
     height: auto;
@@ -24,4 +20,42 @@ fieldset{
     border-radius: 20px;
     margin: auto;
     padding: 10px; 
+    font-weight: lighter;
+}
+.input {
+    line-height: 28px;
+    border: 2px solid transparent;
+    border-bottom-color: #777;
+    padding: .2rem 0;
+    outline: none;
+    background-color: transparent;
+    color: #0d0c22;
+    transition: .3s cubic-bezier(0.645, 0.045, 0.355, 1);
+    width:90px;
+    height:30px;
+}
+
+.input:focus, input:hover {
+    outline: none;
+    padding: .2rem 1rem;
+    border-radius: 1rem;
+    border-color: #7a9cc6;
+}
+
+.input::placeholder {
+ color: #777;
+}
+
+.input:focus::placeholder {
+    opacity: 0;
+    transition: opacity .3s;
+}
+.AllForm{
+    margin: auto;
+    padding: 10px; 
+    background-color: #BDCCDA;
+    border-radius: 10px;
+}
+button{
+    background-color: transparent;
 }
