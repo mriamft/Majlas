@@ -1,15 +1,122 @@
 <!DOCTYPE html>
-<!--
-Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
-Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
-</html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="SignUp.css">
+  <title>Sign Up</title>
+</head>
+
+<body>
+    <header>
+        <a href="index.html" class="logo" accesskey="h"><img src="image/MajlasLogo.jpg" alt="Majlas's Logo" width="250" height="150"></a>
+    </header>
+    <main>
+        <div class="BigContainer">
+            <div class="Form">
+                <div class="Type">
+                    <br><input type="radio" name="Type" value="interior"><img src="image/InteriorDes.png" alt="" style="width: 10em; height: 10em;"><br><br>
+                    <input type="radio" name="Type" value="client"><img src="image/Cleint.png" alt="" style="width: 10em; height: 10em;">
+                </div>
+                <p id="paragraph" >Let's start the journey! <br> Select Account Type</p>
+
+                <div class="DesForm" style="display: none;">
+                    <form>
+                        <input type="text" name="Fname" value="" class="FormHeight" placeholder=" First Name" style="margin-right: 2em; width:42%;">
+                        <input type="text" name="Lname" value="" class="FormHeight" placeholder=" Last Name" style="width:42%"><br><br>
+                        <input type="email" placeholder="  E-mail" class="FormHeight" style="width:90%"><br><br>
+                        <input type="password" name="pswd" class="FormHeight" placeholder="Password" style="width:90%"><br><br>
+                        <input type="text" name="Brandname" value="" class="FormHeight" placeholder=" Brand Name" style=" width:42%;"><br><br>
+                        <input type="file" id="myfile" name="myfile" class="FormHeight" style="border: 0.3vh solid lightgrey; width:42%; background-color: white;">
+                        <div id="Category">
+                            <p style="color: rgb(68, 68, 68); font-size: 1.1em;">Interior Design Category:</p>
+                                <input type="checkbox" name="Category" value="Modren"> Modren<br>
+                                <input type="checkbox" name="Category" value="Country"> Country<br>
+                                <input type="checkbox" name="Category" value="Coastal"> Coastal<br>
+                                <input type="checkbox" name="Category" value="Bohemian"> Bohemian
+                        </div>
+                        
+                        <input type="button" value="Submit" id="btn">
+                    </form>
+                </div>
+
+                <div class="ClientForm" style="display: none;">
+                    <form>
+                        <input type="text" name="Fname" value="" class="FormHeight" placeholder=" First Name" style="margin-right: 2em; width:42%;">
+                        <input type="text" name="Lname" value="" class="FormHeight" placeholder=" Last Name" style="width:42%"><br><br>
+                        <input type="email" placeholder="  E-mail" class="FormHeight" style="width:90%"><br><br>
+                        <input type="password" name="pswd" class="FormHeight" placeholder="Password" style="width:90%"><br><br>
+                        
+                        <input type="button" value="Submit" id="btn1">
+                    </form>
+                </div>
+
+            </div>
+
+            <div class="Picture"></div>
+        </div>
+    </main>
+    <footer>
+    <div class="footcontainer">
+        <div class="col1"> <!--for the right most column*/-->
+            <h3>Majlas's Story</h3>
+            <p>Majlas embarked on a journey of innovation, shaping the digital realm with their visionary ideas.</p>
+        </div>
+
+        <var></var>
+        
+        <div class="col2">
+            <h3>Contact us</h3>
+            <ul>
+                <li><a href="tel:+0543080394"><img src="image/phone.png" alt="Phone call"> <span class="phone-number">0543080394</span></a></li>
+                <li><a href="mailto:Majlas@info.com"><img src="image/email.png" alt="Email Message"> <span class="email-address">Majlas@info.com</span></a></li>
+            </ul>
+            <span>&copy; All rights reserved 2023-2024</span>
+        </div>
+
+        <div class="col3"> <!--for the left most column*/-->
+            <h3>Address</h3>
+            <p>Saudi Arabia, Riyadh, King Saud University, Information Technology department IT329</p>
+            <p>Privacy - Term</p>
+
+        </div>
+    </div>
+    
+</footer>
+
+
+<script>
+    //start of the form vivibalty
+    var type = document.getElementsByClassName("Type")[0];
+    var paragraph = document.getElementById("paragraph");
+    var desForm = document.getElementsByClassName("DesForm")[0];
+    var CleintForm = document.getElementsByClassName("ClientForm")[0];
+
+
+    type.addEventListener('change', function(event) {
+    var selectedType = event.target.value;
+    
+    if (selectedType === 'interior') {
+        desForm.style.display = 'block';
+        paragraph.style.display = 'none';
+        CleintForm.style.display = 'none'; 
+    } else if (selectedType === 'client') {
+        desForm.style.display = 'none';
+        paragraph.style.display = 'none';
+        CleintForm.style.display = 'block'; 
+    }
+    });//end of the form visiblaty 
+
+    document.getElementById("btn").addEventListener("click", function() {
+        window.location.href = "DesignerHomePage.html";
+    });
+
+    document.getElementById("btn1").addEventListener("click", function() {
+        window.location.href = "ClientHomePage.html";
+    });
+</script>
+    
+</body>
+
