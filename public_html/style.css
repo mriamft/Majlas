@@ -126,7 +126,7 @@ button:hover{
   text-align: left;
 }
 .breadcrumb a {
-  color: var(--blackToWhite);
+  color:  rgb(0, 0, 0);
   font-size: 1rem;
 }
 .breadcrumb a:hover {
