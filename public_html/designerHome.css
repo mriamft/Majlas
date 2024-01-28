@@ -23,6 +23,7 @@
   transition: 0.5s ease;
 }
 
+
 .designer-info p :first-child{
   font-size: 1.5rem;
 }
@@ -86,24 +87,6 @@ table {
             width: 200px;
             height: 150px;
         }
-/*        .designer-info{
-            border: 1px solid black;
-            padding: 13px;
-            margin: 10px;
-            margin-left: 0;
-        }
-        #log-out{ 
-            position: absolute;
-            top: 170px;
-            right: 10px;
-            
-        
-        }*/
-/*        .add{
-                position: absolute;
-                top: 280px;
-                right: 10px;
-        }*/
         
         a {
             color: black;
@@ -122,4 +105,6 @@ table {
             flex-direction: column;
             justify-content: space-around;
         }
+
+
 
