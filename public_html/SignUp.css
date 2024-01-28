@@ -98,7 +98,7 @@
           cursor:pointer
         }
         input[type="file"]::before {
-            content: "Brand Logo                                                                       ";
+            content: "Attach Brand Logo                                                                       ";
             color:#a6a6a6;
             color: rgb(128,128,128);
             padding: 2%;
