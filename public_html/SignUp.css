@@ -5,14 +5,14 @@
     justify-content:flex-start;
     width: 90%; 
     height: 70vh; 
-    margin-top: -5em; 
+    margin-top: -12em; 
     margin-left: 5em;
 }
 
 .Form {
     background-color: white;
     padding: 0;
-    height: 60vh; 
+    height: 69vh; 
     width: 70%;
     margin-right: 0; 
     border-radius: 10px;
@@ -23,9 +23,9 @@
     background-size: contain;
     background-repeat: no-repeat;
     margin: 0; 
-    margin-top: 14em;
-    width: 40%;
-    height: 100vh; 
+    margin-top: 21em;
+    width: 48%;
+    height: 125vh; 
   }
 
   #paragraph{
@@ -37,12 +37,12 @@
   }
 
 .DesForm{
-    margin-top: -22em;
+    margin-top: -25em;
     margin-left: 16em;
 }
 
 .ClientForm{
-    margin-top: -19em;
+    margin-top: -20.3em;
     margin-left: 16em;
 }
 
@@ -53,11 +53,16 @@
 }
 
 .FormHeight{
+    height: 2.2em;
+}
+
+.FormHeight1{
     height: 2.5em;
 }
 
 #btn{
-    margin-top: -1.5em;
+    margin-bottom: 26em;
+    margin-top: -30em;
     margin-left: 2.3em;
     padding: 0 5px;
     background-color:#EFEFEF ;
@@ -98,9 +103,14 @@
           cursor:pointer
         }
         input[type="file"]::before {
-            content: "Attach Brand Logo                                                                       ";
+            content: "Attach                                                                      ";
             color:#a6a6a6;
             color: rgb(128,128,128);
             padding: 2%;
             cursor: pointer;
+          }
+          
+          .ParForm{
+              color: rgb(68, 68, 68); 
+              font-size: 1em;
           }
