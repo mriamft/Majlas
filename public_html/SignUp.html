@@ -23,21 +23,30 @@
         <div class="BigContainer" style="height: 160vh;">
             <div class="Form">
                 <div class="Type">
-                    <br><input type="radio" name="Type" value="interior"><img src="image/InteriorDes.png" alt="" style="width: 10em; height: 10em;"><br><br>
+                    <br><br>
+                    <input type="radio" name="Type" value="interior"><img src="image/InteriorDes.png" alt="" style="width: 10em; height: 10em;"><br><br>
                     <input type="radio" name="Type" value="client"><img src="image/Cleint.png" alt="" style="width: 10em; height: 10em;">
                 </div>
                 <p id="paragraph" >Let's start the journey! <br> Select Account Type</p>
 
                 <div class="DesForm" style="display: none;">
                     <form>
+                        <h2 style="color: rgb(68, 68, 68);">Designer's Information</h2>
+                        <p class="ParForm">Name:</p>
                         <input type="text" name="Fname" value="" class="FormHeight" placeholder=" First Name" style="margin-right: 2em; width:42%;">
-                        <input type="text" name="Lname" value="" class="FormHeight" placeholder=" Last Name" style="width:42%"><br><br>
-                        <input type="email" placeholder="  E-mail" class="FormHeight" style="width:90%"><br><br>
-                        <input type="password" name="pswd" class="FormHeight" placeholder="Password" style="width:90%"><br><br>
-                        <input type="text" name="Brandname" value="" class="FormHeight" placeholder=" Brand Name" style=" width:42%;"><br><br>
+                        <input type="text" name="Lname" value="" class="FormHeight" placeholder=" Last Name" style="width:42%"><br>
+                        <p class="ParForm">E-mail:</p>
+                        <input type="email" placeholder="  E-mail" class="FormHeight" style="width:90%"><br>
+                        <p class="ParForm">Password:</p>
+                        <input type="password" name="pswd" class="FormHeight" placeholder="8-20 charechter, numbers, Upper and Lower letters" style="width:90%"><br><br>
+                        
+                        <h2 style="color: rgb(68, 68, 68);">Brand's Information</h2>
+                        <p class="ParForm">Brand Name:</p>
+                        <input type="text" name="Brandname" value="" class="FormHeight" placeholder="Name" style=" width:42%;"><br>
+                        <p class="ParForm">Brand Logo</p>
                         <input type="file" id="myfile" name="myfile" class="FormHeight" style="border: 0.3vh solid lightgrey; width:42%; background-color: white;">
                         <div id="Category">
-                            <p style="color: rgb(68, 68, 68); font-size: 1.1em;">Interior Design Category:</p>
+                            <p class="ParForm">Interior Design Category:</p>
                                 <input type="checkbox" name="Category" value="Modren"> Modren<br>
                                 <input type="checkbox" name="Category" value="Country"> Country<br>
                                 <input type="checkbox" name="Category" value="Coastal"> Coastal<br>
@@ -50,10 +59,14 @@
 
                 <div class="ClientForm" style="display: none;">
                     <form>
-                        <input type="text" name="Fname" value="" class="FormHeight" placeholder=" First Name" style="margin-right: 2em; width:42%;">
-                        <input type="text" name="Lname" value="" class="FormHeight" placeholder=" Last Name" style="width:42%"><br><br>
-                        <input type="email" placeholder="  E-mail" class="FormHeight" style="width:90%"><br><br>
-                        <input type="password" name="pswd" class="FormHeight" placeholder="Password" style="width:90%"><br><br>
+                        <h2 style="color: rgb(68, 68, 68);">Client's Information</h2>
+                        <p class="ParForm">Name:</p>
+                        <input type="text" name="Fname" value="" class="FormHeight1" placeholder=" First Name" style="margin-right: 2em; width:42%;">
+                        <input type="text" name="Lname" value="" class="FormHeight1" placeholder=" Last Name" style="width:42%"><br><br>
+                        <p class="ParForm">Email:</p>
+                        <input type="email" placeholder="  E-mail" class="FormHeight1" style="width:90%"><br><br>
+                        <p class="ParForm">Password:</p>
+                        <input type="password" name="pswd" class="FormHeight1" placeholder="Password" style="width:90%"><br><br>
                         
                         <input type="button" value="Submit" id="btn1">
                     </form>
