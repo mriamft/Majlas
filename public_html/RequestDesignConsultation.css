@@ -7,9 +7,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : alzeghaibi.
 */
 
-*{
+
+main{
     text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6) 100%, transparent), url(image/modrenMaj.png);
 }
+
 #note{
 font-size: smaller;
 }
@@ -21,6 +24,7 @@ fieldset{
     margin: auto;
     padding: 10px; 
     font-weight: lighter;
+    height: 500px;
 }
 .input {
     line-height: 28px;
