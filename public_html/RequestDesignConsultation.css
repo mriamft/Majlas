@@ -11,12 +11,15 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 main{
     text-align: center;
     background-image: linear-gradient(rgba(255, 255, 255, 0.6) 100%, transparent), url(image/modrenMaj.png);
+    height: 700px;
+
 }
 
 #note{
 font-size: smaller;
 }
 fieldset{
+    color: white;
     font-size: x-large;
     height: auto;
     width: 500px;
@@ -24,7 +27,7 @@ fieldset{
     margin: auto;
     padding: 10px; 
     font-weight: lighter;
-    height: 500px;
+    height: 400px;
 }
 .input {
     line-height: 28px;
@@ -47,7 +50,7 @@ fieldset{
 }
 
 .input::placeholder {
- color: #777;
+ color: white;
 }
 
 .input:focus::placeholder {
@@ -57,7 +60,7 @@ fieldset{
 .AllForm{
     margin: auto;
     padding: 10px; 
-    background-color: #BDCCDA;
+    background-color: #59738d98;
     border-radius: 10px;
 }
 button{
