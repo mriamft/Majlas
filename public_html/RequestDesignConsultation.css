@@ -18,6 +18,10 @@ main{
 #note{
 font-size: smaller;
 }
+
+h1{
+    color: #881817;
+}
 fieldset{
     color: white;
     font-size: x-large;
@@ -58,10 +62,16 @@ fieldset{
     transition: opacity .3s;
 }
 .AllForm{
+    width: 40%;
     margin: auto;
     padding: 10px; 
     background-color: #59738d98;
     border-radius: 10px;
+}
+
+.formBody{
+    flex-direction: column;
+    justify-content: center;
 }
 button{
     background-color: transparent;

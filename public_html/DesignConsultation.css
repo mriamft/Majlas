@@ -6,6 +6,12 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Created on : Jan 24, 2024, 9:38:40 PM
     Author     : alzeghaibi.
 */
+
+main{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.6) 100%, transparent), url(image/modrenMaj.png);
+    height: 700px;
+
+}
 h1{
     text-align: center;
 }
