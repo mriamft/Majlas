@@ -47,7 +47,7 @@
 }
 
 #Category{
-    margin-left: 15em;
+    margin-left: 13em;
     margin-top: -5.9em;
     color: rgb(128,128,128);
 }
@@ -61,8 +61,7 @@
 }
 
 #btn{
-    margin-bottom: 26em;
-    margin-top: -30em;
+    margin-top: -14em;
     margin-left: 2.3em;
     padding: 0 5px;
     background-color:#EFEFEF ;
@@ -84,7 +83,7 @@
 
     #btn1{
         margin-top: -1.5em;
-        margin-left: 8em;
+        margin-left: 6em;
         padding: 0 5px;
         background-color:#EFEFEF ;
         color: black;
