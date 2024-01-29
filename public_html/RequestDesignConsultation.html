@@ -26,13 +26,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         
         <form action="" method="post">
             <fieldset>
-                <legend>Request design consultation</legend>       
+                <legend>Request design consultation form</legend>       
             <br>
             <label>Room Type: 
             <select name="roomType" id="roomType" required >
-                <!--placeholder -->
-                <option disabled selected value="">Room Type</option>
-                <option value="Bedroom">Bedroom</option>
+                <option value="Bedroom" selected>Bedroom</option>
                 <option value="Kitchen">Kitchen</option>
                 <option value="LivingRoom">Living Room</option>
                 <option value="DiningRoom">Dining Room</option>
@@ -45,8 +43,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         <label>
             Design category: 
             <select name="DesignCategory" id="DesignCategory" required>
-                <option disabled selected value="">Design Category</option>
-                    <option value="modern">Modern</option>
+                <option value="modern" selected>Modern</option>
                     <option value="mid-centuryModern">Mid-century modern</option>
                     <option value="traditional">Traditional</option>
                     <option value="Coastal">Coastal</option>
@@ -56,7 +53,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this
         </label>
         <br>
         <label>
-            Color preferences: <input type="text" name="Color" class="input" required>
+            Color preferences: <input type="text" name="Color" class="input" required placeholder="Enter your color preferences">
         </label>
         <br><br>
         
