@@ -105,6 +105,11 @@ table {
             flex-direction: column;
             justify-content: space-around;
         }
+        #logo_designer{
+         float: right;
+          margin-top: -150px;
+        }
+        
 
 
 
