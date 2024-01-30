@@ -1,5 +1,5 @@
 button{
-    background-color: #B8BFC6 ;
+    background-color: #a6b5c4 ;
     color: #ffffff;
     border: none;
     width: 20%;
@@ -29,7 +29,7 @@ p.Majlas{
     font-size: 3.5em;
     text-align: center;
     margin-left: -3em;
-    color: #7F3425;
+    color: #881817;
 }
 
 .Sign{
@@ -45,7 +45,7 @@ p.Majlas{
 
 #Story , #PStory{
     text-align: center;
-    color:#994F41;
+    color:#881817;
 }
 
 #Story{
@@ -70,7 +70,7 @@ p.Majlas{
     font-weight: lighter;
     margin-top: -7em;
     margin-left: 2em;
-    color:#994F41;
+    color:#881817;
 }
 
 #InspiredPic{
