@@ -73,7 +73,51 @@ fieldset{
     flex-direction: column;
     justify-content: center;
 }
-button{
-    background-color: transparent;
+
+.btn {
+  font-size: 14px;
+  font-weight: 300;
+  text-transform: uppercase;
+  line-height: 8px;
+  border-radius: 30px;
+  border: none;
+  background-color: #59738d98;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
 }
 
+.btn > * {
+  display: inline-block;
+  transition: all ease-in-out .5s;
+}
+
+.btn__visible {
+  padding: 1.2rem 3rem;
+  text-align: center;
+}
+
+.btn__invisible {
+  width: 100%;
+  position: absolute;
+  padding: 1.2rem 0;
+  left: 0;
+  top: -100%;
+}
+
+.btn:hover {
+  background-color: #59738d98;
+}
+
+.btn:hover .btn__visible {
+  transform: translateY(100%);
+}
+
+.btn:hover .btn__invisible {
+  top: 0;
+}
+
+.btn:focus {
+  outline: none;
+}
