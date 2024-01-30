@@ -3,19 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="x-icon" href="image/tapImage.PNG">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <title>Refrence</title>
+  <link rel="stylesheet" href="HomePage.css">
+  <title>HomePage</title>
 </head>
 
 <body>
-    <header>
-        <a href="index.html" class="logo" accesskey="h"><img src="image/MajlasLogo.jpg" alt="Majlas's Logo" width="300" height="150"></a>
-        <a href="login.html" class="btn">Log In</a>
+    <header> 
+        <a href="index.html" class="logo" accesskey="h"><img src="image/MajlasLogo.jpg" alt="Majlas's Logo" width="250" height="150"></a>
     </header>
     <main>
-        
+        <div style="height: 92em;">
+            <div>
+                <img src="image/HomePage.jpeg" alt="" style=" width: 30%; margin-left: -4em; margin-top: -2em;">
+            </div>
+
+            <div style="margin-left: 28em; margin-top: -30em;">
+                <p class="Majlas" style="color: rgb(255, 255, 255); margin-left: 0.1em;">MAGLAS</p>
+                <p class="Majlas" style="color: #7F3425; margin-top: -1.6em;">MAGLAS</p><br>
+                <p id="pMajlas">every space becomes a<br> masterpiece!</p>
+                <button id="Loginbtn">Login</button><br><br>
+                <a href="Sign Up.html" class="Sign">New user? Sign up.</a>
+            </div>
+
+            <div class="story" style="margin-top: 6em;">
+                <p id="Story">MAJLAS Story!</p><br>
+                <p id="PStory">Majlas embarked on a journey of innovation,<br>shaping the digital realm with their visionary <br>ideas.</p><br>
+            </div>
+
+            <div>
+                <img src="image/Inspired.png" alt="" id="InspiredPic">
+                <p id="Inspired">Get Inspired!</p>
+                
+            </div>
+        </div>
     </main>
     <footer>
     <div class="footcontainer">
@@ -44,6 +66,11 @@
     </div>
     
 </footer>
+<script>
+    document.getElementById("loginBtn").addEventListener("click", function() {
+        window.location.href = "login.html";
+    });
+</script>
     
     
 </body>
