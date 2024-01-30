@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 10px;
+    box-sizing: border-box; /*to make child */
+    font-family: 'Poppins', sans-serif; /*The font chosen for the whole page*/
+}
+
+body{
+    background-color:#EFEFEF;
+    min-height: 100vh;
+    display: flex;
+    color:black;
+    flex-direction: column;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+header{
+    display: flex;
+    justify-content:space-between ;
+    flex-wrap: wrap;
+    width: 100%;
+    position: sticky;
+    color:white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header ,footer{
+    background-color: #59738d;
+
+}
+
+div{
+    margin: 10px;
+}
+footer{
+  margin-top: auto;
+  color:white;
+
+}
+
+.footcontainer {
+    
+  display: flex;
+  justify-content: space-between;
+}
+
+.col1,
+.col2,
+.col3 {
+    
+  flex-basis: 30%;
+  margin: 20px 10px;
+  
+}
+
+/* Additional styling for each column */
+.col1 h3,
+.col2 h3,
+.col3 h3 {
+        color:white;
+  font-size: 1.2em;
+}
+
+.col1 p,
+.col2 ul,
+.col3 p {
+  font-size: 1em;
+
+}
+.col2 li {
+  list-style: none;
+}
+
+.col2 .phone-number {
+    text-decoration: none;
+    color:white;
+}
+
+.col2 .email-address {
+    text-decoration: none;
+    color:white;
+}
+.btn{
+  width: 130px;
+  height: 40px;
+  margin: 10px;
+  background-color:#881817 ;
+  color: white;
+  border: 2px solid white;
+  font-size: 22px;
+  font-weight: 500;
+  transition: .4s;
+  border-radius: 7px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn:hover{
+    background-color:#511d1bc2 ;
+}
+
+
+
+/* login form css */
+
+.form{
+
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  z-index: 1;
+  background: #BDCCDA;
+  /* opacity: 0; */
+   max-width: 300px;
+   margin: 10% 40%;
+   padding: 39px ;
+   box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24) ;
+   border-radius:10px ;
+
+}
+
+#a {
+
+  font-size: 20px; 
+  padding: 4px;
+  margin-top:3px ;
+  text-align: center;
+  color:#881817 ;
+  
+
+}
+
+#b {
+
+  font-size: 17px; 
+  padding: 4px;
+  margin-top:4px ;
+  text-align: center;
+  color:#0e0d0d ;
+  
+
+}
+
+.form input{
+  outline: 0;
+  border-radius:10px ;
+  width: 100%;
+  border:0 ;
+  margin: 15px 0 15px 0;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  
+}
+
+.form input:hover{
+
+  background-color: #8397a7;
+
+}
+ .form button{
+
+  text-transform: uppercase;
+  outline: 0;
+  border-radius: 10px;
+  background: #59738d;
+  width: 100%;
+  border: 0;
+  padding: 10px;
+  margin: 17px 0 ;
+  color:rgb(124, 227, 227);
+  font-size: 15px;
+  cursor: pointer;
+
+ }
+
+ .form button:hover, .form button:active, form button:focus{
+background-color:#455768 ;
+
+ }
+
+ #user-type{
+
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 110px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 8px;
+  margin-left: 4px ;
+  font-size: 16px;
+
+ }
+
+ /* addition page css */
+
+ .container{
+  /* position: relative; */
+  z-index: 1;
+  font-family: 'lato', sans-serif;
+  margin: 5% 28%;
+  margin-left: 30%;
+  padding: 30px;
+  font-size:130%;
+  
+
+ }
+
+ fieldset{
+
+  margin: 2em 0;
+  padding: 1em 2em;
+  border: solid 5px #4b6278;
+  border-radius: 6px;
+  min-width: 200px;
+  background-color: #c9d7e2;
+  
+ }
+
+
+ legend{
+
+  font-size: 1.25em;
+  padding: 0 .25em;
+  color:#881817;
+ }
+
+ label{
+
+  display: block;
+  margin-top: 1em;
+ }
+
+ #project-name , #project-description{
+
+  padding: .5em;
+  border: solid 1.5px #010101;
+  border-radius: 10px;
+ }
+
+ textarea{
+
+  min-height: 8em;
+  min-width: 100%;
+  padding: .5em;
+  border: solid 1px #999;
+
+
+ }
+
+ #sub{
+
+  padding: .7em 1em;
+  margin: 15px 150px ;
+  border-radius: 6px;
+  background-color: #881817;
+  color: #fff;
+  font-family: 'lato' , sans-serif;
+  font-size: .7em;
+
+
+ }
+
+ #design-category{
+
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 180px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 10px;
+  margin-left: 2px ;
+  font-size: 20px;
+ }
+
+ #project-image{
+ font-size: 17px;
+ width: 500px;
+ 
+
+ }
