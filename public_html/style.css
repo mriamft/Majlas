@@ -172,7 +172,7 @@ button:hover{
  */ 
 
 .breadcrumb {
-  margin: 20px 0;
+  margin:20px 20px;
   text-align: left;
 }
 .breadcrumb a {
