@@ -16,14 +16,16 @@ body {
   font-weight: 500;
 }
 
+
 main {
-  padding: 10px;
-  width: 95%;
-  margin: auto;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
 }
+/* margin: auto;
+padding: 10px;
+width: 95%; */
+
 
 /* Rest of the code remains the same */
 
@@ -32,9 +34,63 @@ header{
     justify-content:space-between ;
     align-items: center;
     flex-wrap: wrap;
+    z-index: 100;
     width: 100%;
-    position: sticky;
-    color:white;
+    padding: 20px 10%;
+    position: relative;
+    top: 0;
+    left: 0;
+    box-shadow: 1px 1px 5px #881817;
+    /* color:white; */
+}
+
+
+.part1{
+height: 100vh;
+background: url(image/11111.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+display: flex;
+align-items: center;
+padding: 0 10%;
+
+}
+
+
+.headerContent{
+  max-width: 60%;
+}
+
+.headerContent h2{
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.headerContent h3{
+  font-size: 32px;
+  font-weight: 700;
+  color: #881817;
+}
+
+.headerContent p{
+  font-size: 1.5rem;
+  margin: 10px 0 40px 0;
+}
+
+.imgHover{
+  position: absolute;
+  top: 150px;
+  right: 220px;
+  width: 300px;
+  height: 50px;
+  background: transparent;
+  transition: 0.5s ease;
+}
+
+.imgHover img:hover{
+  transform: scale(1.1) ;
+  opacity: .8;
 }
 
 img {
@@ -43,17 +99,14 @@ img {
 }
 
 header ,footer{
-    background-color: #59738D;
+  background: #EFEFEF;
+
 
 }
 
-div{
-    margin: 10px;
-}
 
 footer{
   margin-top: auto;
-  color:white;
 }
 
 .footcontainer {
@@ -65,7 +118,6 @@ footer{
 .col1,
 .col2,
 .col3 {
-    
   flex-basis: 30%;
   margin: 20px 10px;
   
@@ -75,7 +127,6 @@ footer{
 .col1 h3,
 .col2 h3,
 .col3 h3 {
-  color:white;
   font-size: 1.2em;
 }
 
@@ -91,12 +142,10 @@ footer{
 
 .col2 .phone-number {
     text-decoration: none;
-    color:white;
 }
 
 .col2 .email-address {
     text-decoration: none;
-    color:white;
     
 }
   /*
@@ -131,4 +180,21 @@ button:hover{
 }
 .breadcrumb a:hover {
   color: #0008;
+}
+
+table, th, td {
+  border:1px solid black;
+  text-align: center;
+  padding: 5px;
+}
+
+table{
+  border-radius: 7px;
+
+}
+
+.headerContent span{
+  color: black;
+  font-weight: 400;
+
 }
