@@ -119,3 +119,10 @@ label{
     background-color: #59738d98;
     border-radius: 10px;
 }
+textarea{
+
+  min-height: 8em;
+  min-width: 100%;
+  padding: .5em;
+  border: solid 2px #999;
+}

@@ -84,8 +84,8 @@ fieldset{
   line-height: 8px;
   border-radius: 30px;
   border: none;
-  background-color: #59738d98;
-  color: #fff;
+  background-color: #881817;
+  color: white;
   position: relative;
   overflow: hidden;
   cursor: pointer;
@@ -110,7 +110,7 @@ fieldset{
 }
 
 .btn:hover {
-  background-color: #59738d98;
+  background-color: #881817;
 }
 
 .btn:hover .btn__visible {
@@ -123,4 +123,13 @@ fieldset{
 
 .btn:focus {
   outline: none;
+}
+#roomType, #DesignCategory{
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 110px;
+  font-family: 'Courier New', Courier, monospace;
+  padding-left: 8px;
+  margin-left: 4px ;
+  font-size: 16px;
 }
