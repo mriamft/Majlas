@@ -62,10 +62,10 @@ fieldset{
     transition: opacity .3s;
 }
 .AllForm{
-    width: 40%;
+    width: 39%;
     margin: auto;
     padding: 10px; 
-    background-color: rgba(238, 217, 201, 0.7);
+    background-color: rgba(238, 217, 201, 0.8);
     border-radius: 10px;
 }
 
