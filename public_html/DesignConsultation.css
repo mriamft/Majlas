@@ -34,7 +34,7 @@ div{
 }
 #RequestInformationData:hover{
     transform: scale(1.05);
-    background-color: #59738d77;
+   background-color:rgba(255, 255, 255, 0.716);
 }
 form{
     margin: 10px;
@@ -49,80 +49,65 @@ label{
     font-size: larger;
     font-weight: bolder;
 }
-.button {
-  position: relative;
-  background-color: transparent;
-  color: #e8e8e8;
-  font-weight: 600;
-  border-radius: 10px;
-  width: 85px;
-  height: 36px;
-  border: none;
+
+.btn {
+  font-size: 14px;
+  font-weight: 300;
   text-transform: uppercase;
-  cursor: pointer;
-  overflow: hidden;
-  box-shadow: 0 10px 20px rgba(51, 51, 51, 0.2);
-  transition: all 0.3s cubic-bezier(0.23, 1, 0.320, 1);
-}
-
-.button::before {
-  content: "Thank you \:)";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  pointer-events: none;
-  background-color:  #881817;
-  transform: translate(0%,-90%);
-  z-index: 99;
+  line-height: 8px;
+  border-radius: 30px;
+  border: none;
+  background-color: #881817;
+  color: white;
   position: relative;
-  transform-origin: bottom;
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-    font-size: 10px;
+  overflow: hidden;
+  cursor: pointer;
 }
 
-.button::after {
-  content: "Send";
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color:#333 ;
+.btn > * {
+  display: inline-block;
+  transition: all ease-in-out .5s;
+}
+
+.btn__visible {
+  padding: 1.2rem 3rem;
+  text-align: center;
+}
+
+.btn__invisible {
   width: 100%;
-  height: 100%;
-  pointer-events: none;
-  transform-origin: bottom;
-  transform: translate(0%,-100%);
-  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-  font-size: 13px;
+  position: absolute;
+  padding: 1.2rem 0;
+  left: 0;
+  top: -100%;
 }
 
-.button:hover::before {
-  transform: translate(0%,0%);
+.btn:hover {
+  background-color: #881817;
 }
 
-.button:hover::after {
-  transform: translate(0%,0%);
+.btn:hover .btn__visible {
+  transform: translateY(100%);
 }
 
-.button:focus {
+.btn:hover .btn__invisible {
+  top: 0;
+}
+
+.btn:focus {
   outline: none;
-}
-
-.button:active {
-  scale: 0.95;
 }
 .allPage{
     width: 33%;
     margin: auto;
     padding: 10px; 
-    background-color: #59738d98;
+    background-color:rgba(255, 255, 255, 0.675);
     border-radius: 10px;
 }
 textarea{
-
   min-height: 8em;
   min-width: 100%;
   padding: .5em;
   border: solid 2px #999;
+  border-radius: 10px;
 }
