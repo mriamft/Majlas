@@ -50,7 +50,7 @@ fieldset{
     outline: none;
     padding: .2rem 1rem;
     border-radius: 1rem;
-    border-color: #7a9cc6;
+    border-color: #8819177a;
 }
 
 .input::placeholder {
@@ -65,8 +65,11 @@ fieldset{
     width: 39%;
     margin: auto;
     padding: 10px; 
-    background-color: rgba(238, 217, 201, 0.8);
+   /* background-color: rgba(238, 217, 201, 0.75);*/
+    background-color: rgba(255, 255, 255, 0.675);
     border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
 }
 
 .formBody{

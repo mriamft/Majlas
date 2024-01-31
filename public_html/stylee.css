@@ -7,7 +7,12 @@
     box-sizing: border-box; /*to make child */
     font-family: 'Poppins', sans-serif; /*The font chosen for the whole page*/
 }
+main{
+    text-align: center;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7) 100%, transparent), url(image/modrenMaj.png);
+    height: 700px;
 
+}
 body{
     background-color:#EFEFEF;
     min-height: 100vh;
