@@ -23,7 +23,7 @@ h1{
     color: #881817;
 }
 fieldset{
-    color: white;
+    color: #881817;
     font-size: x-large;
     height: auto;
     width: 500px;
@@ -65,7 +65,7 @@ fieldset{
     width: 40%;
     margin: auto;
     padding: 10px; 
-    background-color: #59738d98;
+    background-color: rgba(238, 217, 201, 0.7);
     border-radius: 10px;
 }
 
