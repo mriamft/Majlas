@@ -106,6 +106,7 @@ header ,footer{
 
 
 footer{
+  box-shadow: 1px 1px 5px #881817;
   margin-top: auto;
 }
 
