@@ -37,10 +37,11 @@ div{
     background-color: #59738d77;
 }
 form{
-    margin: auto;
+    margin: 10px;
     padding: 10px; 
     border: 2px solid black;
     border-radius: 10px;
+    width: 445px;
 
 }
 
