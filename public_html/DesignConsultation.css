@@ -10,7 +10,6 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 main{
     background-image: linear-gradient(rgba(255, 255, 255, 0.7) 100%, transparent), url(image/modrenMaj.png);
     height: 700px;
-    z-index: -200;
     Margin-top:-4em;
 
 }

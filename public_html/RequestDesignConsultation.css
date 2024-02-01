@@ -13,8 +13,6 @@ main{
     background-image: linear-gradient(rgba(255, 255, 255, 0.7) 100%, transparent), url(image/modrenMaj.png);
     height: 700px;
     Margin-top:-4em;
-    z-index: -200;
-
 }
 
 #note{
