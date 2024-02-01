@@ -1,5 +1,5 @@
-button{
-    background-color: #a6b5c4 ;
+button {
+    background-color: #a6b5c4;
     color: #ffffff;
     border: none;
     width: 20%;
@@ -13,18 +13,18 @@ button{
     text-align: center;
     text-decoration: none;
 }
-  
-button:hover{
-    color:rgb(255, 255, 255) ;
+
+button:hover {
+    color: rgb(255, 255, 255);
     background-color: #70859b;
-    cursor:pointer
+    cursor: pointer
 }
 
-p.Majlas{
+p.Majlas {
     font-size: 6em;
 }
 
-#pMajlas{
+#pMajlas {
     font-family: "Courier New", Papyrus, Monospace;
     font-size: 3.5em;
     text-align: center;
@@ -32,48 +32,49 @@ p.Majlas{
     color: #881817;
 }
 
-.Sign{
+.Sign {
     color: #994F41;
     margin-left: 11.5em;
     font-size: 1.3em;
 }
 
-.Sign:hover{
+.Sign:hover {
     color: #881817;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-#Story , #PStory{
+#Story,
+#PStory {
     text-align: center;
-    color:#881817;
+    color: #881817;
 }
 
-#Story{
+#Story {
     font-weight: bold;
     font-size: 2.5em;
 }
 
-#PStory{
+#PStory {
     font-size: 1.7em;
     font-weight: lighter;
     text-align: center;
 }
 
-.story{
-    border-bottom: 2px solid #70859b ;
+.story {
+    border-bottom: 2px solid #70859b;
     width: 70%;
     margin-left: 11em;
 }
 
-#Inspired{
+#Inspired {
     font-size: 3em;
     font-weight: lighter;
     margin-top: -7em;
     margin-left: 2em;
-    color:#881817;
+    color: #881817;
 }
 
-#InspiredPic{
+#InspiredPic {
     margin-top: 3em;
     margin-left: 45em;
     width: 50%;
