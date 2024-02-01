@@ -1,5 +1,6 @@
 body{
-     background-color: rgb(238,217,201);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7) 100%, transparent), url(image/modrenMaj.png);
+    background-color: #EFEFEF;
 }
 .header1{
   display: flex;
@@ -59,7 +60,7 @@ body{
 
  .designer-info{
   width: 80%;
-  margin: auto;
+  
 }
 
 
@@ -105,8 +106,14 @@ table {
             flex-direction: column;
             justify-content: space-around;
         }
-
+        .part0{
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            padding: 0 10%;
+        }
+        #image0{
+              position: relative;
+              top: 220px;
+              left: 40px;}
         
-
-
-
