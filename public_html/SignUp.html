@@ -15,66 +15,72 @@
         <a href="index.html" class="logo" accesskey="h"><img src="image/tapImage.PNG" alt="Majlas's Logo" width="200"></a>
     </header>
     <div class="breadcrumb">
-        <a href="index.html">HomePage</a>
+        <a href="ClientHomePage.html">Client Homepage</a>
         <span> / </span>
-        <a href="SignUp.html">Sign Up</a>  
+        <a href="RequestDesignConsultation.html">Request design consultation</a>  
         </div>
     <main>
-        <div class="BigContainer" style="height: 160vh;">
-            <div class="Form">
-                <div class="Type">
-                    <br><br>
-                    <input type="radio" name="Type" value="interior"><img src="image/InteriorDes.png" alt="" style="width: 10em; height: 10em;"><br><br>
-                    <input type="radio" name="Type" value="client"><img src="image/Cleint.png" alt="" style="width: 10em; height: 10em;">
+        <div class="BigContainer">
+            <div class="Type">
+                <div>
+                    <label>
+                        <input type="radio" name="Type" value="interior">
+                        <span>Interior Designer</span>
+                    </label>
+                    <label>
+                        <input type="radio" name="Type" value="client">
+                        <span>Cleint</span>
+                    </label>
                 </div>
-                <p id="paragraph" >Let's start the journey! <br> Select Account Type</p>
-
-                <div class="DesForm" style="display: none;">
-                    <form>
-                        <h2 style="color: rgb(68, 68, 68);">Designer's Information</h2>
-                        <p class="ParForm">Name:</p>
-                        <input type="text" name="Fname" value="" class="FormHeight" placeholder=" First Name" style="margin-right: 2em; width:42%;">
-                        <input type="text" name="Lname" value="" class="FormHeight" placeholder=" Last Name" style="width:42%"><br>
-                        <p class="ParForm">E-mail:</p>
-                        <input type="email" placeholder="  E-mail" class="FormHeight" style="width:90%"><br>
-                        <p class="ParForm">Password:</p>
-                        <input type="password" name="pswd" class="FormHeight" placeholder="8-20 charechter, numbers, Upper and Lower letters" style="width:90%"><br><br>
-                        
-                        <h2 style="color: rgb(68, 68, 68);">Brand's Information</h2>
-                        <p class="ParForm">Brand Name:</p>
-                        <input type="text" name="Brandname" value="" class="FormHeight" placeholder="Name" style=" width:42%;"><br>
-                        <p class="ParForm">Brand Logo</p>
-                        <input type="file" id="myfile" name="myfile" class="FormHeight" style="border: 0.3vh solid lightgrey; width:42%; background-color: white;">
-                        <div id="Category">
-                            <p class="ParForm">Interior Design Category:</p>
-                                <input type="checkbox" name="Category" value="Modren"> Modren<br>
-                                <input type="checkbox" name="Category" value="Country"> Country<br>
-                                <input type="checkbox" name="Category" value="Coastal"> Coastal<br>
-                                <input type="checkbox" name="Category" value="Bohemian"> Bohemian
-                        </div>
-                        
-                        <input type="button" value="Submit" id="btn">
-                    </form>
-                </div>
-
-                <div class="ClientForm" style="display: none;">
-                    <form>
-                        <h2 style="color: rgb(68, 68, 68);">Client's Information</h2>
-                        <p class="ParForm">Name:</p>
-                        <input type="text" name="Fname" value="" class="FormHeight1" placeholder=" First Name" style="margin-right: 2em; width:42%;">
-                        <input type="text" name="Lname" value="" class="FormHeight1" placeholder=" Last Name" style="width:42%"><br><br>
-                        <p class="ParForm">Email:</p>
-                        <input type="email" placeholder="  E-mail" class="FormHeight1" style="width:90%"><br><br>
-                        <p class="ParForm">Password:</p>
-                        <input type="password" name="pswd" class="FormHeight1" placeholder="Password" style="width:90%"><br><br>
-                        
-                        <input type="button" value="Submit" id="btn1">
-                    </form>
-                </div>
-
             </div>
+            <p id="paragraph">Let's start the journey! <br> Select Account Type</p>
+            <div class="DesForm" style="display: none;">
+                <form>
+                    <div class="DesInfo"  >
+                        <h2 style="color: rgb(68, 68, 68); font-size: 20px;">Designer's Information</h2><br>
+                        
+                        <input type="text" name="Fname" value="" class="FormHeight" placeholder=" First Name" style=" width:20%;"><br>
+                        <label >Name:</label>
+                        <input type="text" name="Lname" value="" class="FormHeight" placeholder=" Last Name" style="width:20%; margin-right: 5em;"><br><br>
+                        <label  >E-mail:</label>
+                        <input type="email" placeholder="  E-mail" class="FormHeight" style="width:20%; margin-right: 5em;"><br><br>
+                        <label  >Password:</label>
+                        <input type="password" name="pswd" class="FormHeight" placeholder="charechter and numbers" style="width:19%; margin-right: 5.5em;"><br><br>
+                    </div>
 
-            <div class="Picture"></div>
+                    <div class="BrandInfo">
+                        <h2 style="color: rgb(68, 68, 68); font-size: 20px;">Brand's Information</h2><br>
+                        <label >Brand Name:</label>
+                        <input type="text" name="Brandname" value="" class="FormHeight" placeholder=" Name" style=" width:50%; margin-right: 0.5em;"><br><br>
+                        <label >Brand Logo</label>
+                        <input type="file" id="myfile" name="myfile" class="FormHeight" style="width:52%; margin-right: 0.5em;"><br><br>
+                        <div id="Category">
+                            <label style="margin-right: 7em;">Interior Design Category:</label><br>
+                                <input type="checkbox" name="Category" value="Modren" class="checkbox"> Modren<br>
+                                <input type="checkbox" name="Category" value="Country" class="checkbox"> Country<br>
+                                <input type="checkbox" name="Category" value="Coastal" class="checkbox"> Coastal<br>
+                                <input type="checkbox" name="Category" value="Bohemian" class="checkbox checkbox1"> Bohemian
+                        </div>
+                    </div>
+
+                    <input type="button" value="Submit" id="btn">
+                </form>
+            </div>
+    
+            <div class="ClientForm" style="display: none;">
+                <form>
+                    <h2 style="color: rgb(70, 70, 70);">Client's Information</h2><br>
+                    <label>Name:</label>
+                    <input type="text" name="Fname" value="" class="FormHeight" placeholder=" First Name" style="margin-right: 2em; width:38%;">
+                    <input type="text" name="Lname" value="" class="FormHeight" placeholder=" Last Name" style="width:38%"><br><br>
+                    <label >Email:</label>
+                    <input type="email" placeholder="  E-mail" class="FormHeight" style="width:80%"><br><br>
+                    <label >Password:</label>
+                    <input type="password" name="pswd" class="FormHeight" placeholder="8-20 charechter, numbers, Upper and Lower letters" style="width:76%"><br><br>
+                    
+                    <input type="button" value="Submit" id="btn1">
+                </form>
+            </div>
         </div>
     </main>
     <footer>
@@ -138,4 +144,3 @@
 </script>
     
 </body>
-
