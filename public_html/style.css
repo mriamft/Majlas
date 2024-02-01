@@ -200,3 +200,10 @@ table{
   font-weight: 400;
 
 }
+
+.log-out{
+    width: 90px;
+    border-width: 0px;
+    background-color: transparent;
+    
+}

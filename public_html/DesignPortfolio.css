@@ -7,9 +7,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : alzeghaibi.
 */
 
-body{
-    background-color: rgb(238,217,201);
-}
+
 .projectPic{
     border-top-left-radius: 43px;
     border-top-right-radius: 43px;  
@@ -31,7 +29,7 @@ body{
     height: 480px;
     transition: 0.5s ease;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: #faf4f0;
+    background-color: white;
     margin-bottom: 20px;
 
 }
@@ -42,7 +40,7 @@ body{
     height: 480px;
     transition: 0.5s ease;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);    
-    background-color: #faf4f0;
+    background-color: white;
     margin-bottom: 20px;
 }
 
