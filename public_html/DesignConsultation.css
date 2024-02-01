@@ -25,21 +25,21 @@ div{
 #RequestInformationData{
     border: 2px solid black;
     margin: auto;
-    padding: 10px; 
+    padding: 10px;
     height: fit-content;
     width: 400px;
     text-align: left; /*line8 will be override*/
     font-weight: lighter;
     transition: 0.5s ease;
-    border-radius:10px; 
+    border-radius:10px;
 }
 #RequestInformationData:hover{
     transform: scale(1.05);
-   background-color:rgba(255, 255, 255, 0.716);
+    background-color:rgba(255, 255, 255, 0.716);
 }
 form{
     margin: 10px;
-    padding: 10px; 
+    padding: 10px;
     border: 2px solid black;
     border-radius: 10px;
     width: 445px;
@@ -52,63 +52,63 @@ label{
 }
 
 .btn {
-  font-size: 14px;
-  font-weight: 300;
-  text-transform: uppercase;
-  line-height: 8px;
-  border-radius: 30px;
-  border: none;
-  background-color: #881817;
-  color: white;
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 8px;
+    border-radius: 30px;
+    border: none;
+    background-color: #881817;
+    color: white;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 .btn > * {
-  display: inline-block;
-  transition: all ease-in-out .5s;
+    display: inline-block;
+    transition: all ease-in-out .5s;
 }
 
 .btn__visible {
-  padding: 1.2rem 3rem;
-  text-align: center;
+    padding: 1.2rem 3rem;
+    text-align: center;
 }
 
 .btn__invisible {
-  width: 100%;
-  position: absolute;
-  padding: 1.2rem 0;
-  left: 0;
-  top: -100%;
+    width: 100%;
+    position: absolute;
+    padding: 1.2rem 0;
+    left: 0;
+    top: -100%;
 }
 
 .btn:hover {
-  background-color: #881817;
+    background-color: #881817;
 }
 
 .btn:hover .btn__visible {
-  transform: translateY(100%);
+    transform: translateY(100%);
 }
 
 .btn:hover .btn__invisible {
-  top: 0;
+    top: 0;
 }
 
 .btn:focus {
-  outline: none;
+    outline: none;
 }
 .allPage{
     width: 33%;
     margin: auto;
-    padding: 10px; 
+    padding: 10px;
     background-color:rgba(255, 255, 255, 0.675);
     border-radius: 10px;
 }
 textarea{
-  min-height: 8em;
-  min-width: 100%;
-  padding: .5em;
-  border: solid 2px #999;
-  border-radius: 10px;
+    min-height: 8em;
+    min-width: 100%;
+    padding: .5em;
+    border: solid 2px #999;
+    border-radius: 10px;
 }

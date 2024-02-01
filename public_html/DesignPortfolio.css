@@ -10,17 +10,17 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
 
 .projectPic{
     border-top-left-radius: 43px;
-    border-top-right-radius: 43px;  
+    border-top-right-radius: 43px;
     width:300px;
     height: 250px;
 }
 .allprojects{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content:space-around;
-  align-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-content: center;
+    align-items: center;
 }
 .firstProject{
     border-radius: 43px;
@@ -39,7 +39,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     width: 300px;
     height: 480px;
     transition: 0.5s ease;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);    
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     background-color: white;
     margin-bottom: 20px;
 }
