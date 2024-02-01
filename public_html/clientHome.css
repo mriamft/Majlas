@@ -39,10 +39,6 @@
   transition: 0.5s ease;
 }
 
-.clientInfo:hover{
-  background-color: white;
-}
-
 .clientInfo span{
   font-weight: bolder;
   color:#881817;
