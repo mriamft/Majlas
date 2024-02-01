@@ -1,10 +1,11 @@
-
+body{
+     background-color: rgb(238,217,201);
+}
 .header1{
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 1.5rem;
-  color: #881817;
 }
 
 .header1 span{
@@ -13,19 +14,18 @@
 
 }
 
+
 .designer-info{
   padding: 10px;
-  border: 2px solid black;
   border-radius: 10px;
   font-size: 1.3rem;
   margin: 20px;
-  box-shadow: 3px 4px 5px #59738da1;
   transition: 0.5s ease;
+  
 }
 
-
-.designer-info p :first-child{
-  font-size: 1.5rem;
+.designer-info:hover{
+  background-color: white;
 }
 
 .designer-info span{
@@ -41,7 +41,7 @@
 
 .designer-info:hover{
   transform: scale(1.05);
-  background-color: #59738d77;
+  background-color: rgba(255, 255, 255, 0.18);
 }
 
 .desHeader{
@@ -80,8 +80,8 @@ table {
             background-color: #f2f2f2;
         }
          tr:first-of-type th {
-            background-color: #59738D;
-            color: #EFEFEF;
+           background-color: #881817;
+           color: #EFEFEF;
         }
         .house {
             width: 200px;
@@ -105,10 +105,7 @@ table {
             flex-direction: column;
             justify-content: space-around;
         }
-        #logo_designer{
-         float: right;
-          margin-top: -150px;
-        }
+
         
 
 
