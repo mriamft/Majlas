@@ -7,7 +7,11 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     Author     : alzeghaibi.
 */
 
-
+main{
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7) 100%, transparent), url(image/m.jpg);
+    height: 700px;
+    Margin-top:-4em;
+}
 .projectPic{
     border-top-left-radius: 43px;
     border-top-right-radius: 43px;
@@ -29,7 +33,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     height: 480px;
     transition: 0.5s ease;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: white;
+    background-color: #F8EFE9;
     margin-bottom: 20px;
 
 }
@@ -40,7 +44,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this t
     height: 480px;
     transition: 0.5s ease;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    background-color: white;
+    background-color: #F8EFE9;
     margin-bottom: 20px;
 }
 
