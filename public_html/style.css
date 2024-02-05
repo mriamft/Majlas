@@ -211,5 +211,8 @@ table{
     width: 90px;
     border-width: 0px;
     background-color: transparent;
-    
+}
+
+a:link{
+    color: #881817;
 }
