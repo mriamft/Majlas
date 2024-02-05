@@ -22,9 +22,10 @@ body {
     font-size: 1.3rem;
     margin: 20px;
     transition: 0.5s ease;
-
 }
-
+.headerContent{
+    width:900px;
+}
 
 .designer-info span{
     font-weight: bolder;
