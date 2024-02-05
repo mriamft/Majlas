@@ -140,7 +140,7 @@ button{
   text-decoration: none;
 }
 
-button:hover{
+.btn:hover{
     background-color:#881817 ;
     color: white;
     cursor:pointer
