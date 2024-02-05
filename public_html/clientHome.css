@@ -124,3 +124,24 @@ h3{
     padding: 10px;
 
 }
+
+
+button{
+ margin: 10px 30px 10px 10px; 
+  padding: 0 5px;
+  background-color:#EFEFEF ;
+  color: black;
+  border: 2px solid black;
+  font-size: 22px;
+  font-weight: 500;
+  transition: .4s;
+  border-radius: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+button:hover{
+    background-color:#881817 ;
+    color: white;
+    cursor:pointer
+  }
