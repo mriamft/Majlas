@@ -157,6 +157,10 @@ footer{
     text-decoration: none;
     
 }
+
+a:link{
+    color: #881817;
+}
   /*
 button{
  margin: 10px 30px 10px 10px; 
