@@ -134,8 +134,6 @@ input[type="file"]::before {
 }
 
 #btn {
-  background-color: #881817;
-  color: #ffffff;
   border: none;
   width: 20%;
   height: 2.5em;
@@ -146,18 +144,20 @@ input[type="file"]::before {
   margin-top: 1em;
   text-align: center;
   text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #252525;
+  background-color: #EFEFEF;
+  color: #333;
 }
 
 #btn:hover {
-  color: #881817;
   border: 3px solid #881917bc;
-  background-color: #fff;
   cursor: pointer
 }
 
 #btn1 {
-  background-color: #881817;
-  color: #ffffff;
   border: none;
   width: 20%;
   height: 2.5em;
@@ -168,15 +168,53 @@ input[type="file"]::before {
   margin-top: 1em;
   text-align: center;
   text-decoration: none;
+  transition: all 0.5s ease-in-out;
+  position: relative;
+  overflow: hidden;
+  border: 2px solid #252525;
+  background-color: #EFEFEF;
+  color: #333;
 }
 
 #btn1:hover {
-  color: #881817;
   border: 3px solid #881917bc;
-  background-color: #fff;
   cursor: pointer
 }
 
+#btn1:hover, #btn:hover{
+  background-color: #881817;
+}
+ 
+ #btn1::after,  #btn::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: #881817;
+  border-radius: 30px;
+  visibility: hidden;
+  height: 10px;
+  width: 10px;
+  z-index: -1;
+}
+
+#btn:hover,#btn1:hover{
+  box-shadow: 1px 1px 200px #252525;
+  color: #EFEFEF;
+  border: none;
+}
+
+#btn:hover::after, #btn1:hover::after {
+  visibility: visible;
+  transform: scale(100) translateX(2px);
+}
+
+ #btn1:hover, #btn1:active, #btn1:focus,  #btn:hover, #btn:active, #btn:focus{
+background-color:#881817 ;
+
+ }
+ 
 .DesInfo {
   margin-left: -20em;
   margin-top: 0.5em;
@@ -195,5 +233,7 @@ input[type="file"]::before {
 }
 
 .checkbox1 {
-  margin-left: -16.3em;
+  margin-left: 25em;
+  margin-top: -4.5em;
+  text-align: left;
 }
