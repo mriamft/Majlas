@@ -211,6 +211,8 @@ table{
     width: 90px;
     border-width: 0px;
     background-color: transparent;
+    cursor:pointer
+
 }
 
 a:link{
