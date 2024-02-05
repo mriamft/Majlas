@@ -139,6 +139,12 @@ footer{
 
 .col2 li {
   list-style: none;
+  text-decoration: none;
+}
+
+.col2 li a{
+      text-decoration: none;
+      color:black;
 }
 
 .col2 .phone-number {
