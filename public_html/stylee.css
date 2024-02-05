@@ -230,16 +230,15 @@ table{
 
 }
 
-#user-type {
+.user-type {
 /*  display:flex;*/
   flex-wrap: wrap;
   margin-top: -2em;
   justify-content: center;
-  visibility:hidden;
-  
+  visibility:hidden;  
 }
 
-#user-type input[type="radio"] {
+.user-type input[type="radio"] {
   clip: rect(0 0 0 0);
   clip-path: inset(100%);
   height: 1px;
@@ -249,7 +248,7 @@ table{
   width: 1px;
 }
 
-#user-type[type="radio"]:checked+span {
+.user-type[type="radio"]:checked+span {
   box-shadow: 0 0 0 0.0625em #ffe1e0;
   background-color:#fff;
   z-index: 3;
