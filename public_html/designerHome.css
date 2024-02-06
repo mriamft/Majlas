@@ -62,14 +62,6 @@ body {
 
 }
 
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 15px;
-    margin-top: 5px;
-}
-
 th, td {
     padding: 10px;
     text-align: center;
@@ -79,13 +71,28 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+
 tr:first-of-type th {
-    background-color: #881817;
+    background-color:#671614;
     color: #EFEFEF;
 }
 .house {
     width: 200px;
     height: 150px;
+}
+#table1 ,#table2{
+  width: 80%;
+  margin: auto;
+}
+
+
+#table1, #table2{
+  font-size: 1.1rem;
+  margin: auto;
+  padding: 10px;
+  width: 95%;
+
 }
 
 a {
@@ -94,10 +101,13 @@ a {
 
 }
 #Add:hover{
-  color: #881817;
+  color: #671614;
+}
+#Add{
+    padding-right: 2em;
 }
 .link:hover{
-   color: #881817;  
+   color: #671614;  
 }
 h2{
     margin-top: 10px;
@@ -130,3 +140,4 @@ h2{
     border-radius: 50%;
  
 }
+.header1{padding-left: 30px;}
