@@ -52,7 +52,7 @@
 
 .clientInfo:hover{
   transform: scale(1.05);
-  background-color: white;
+  background-color: rgba(255,246,233,0.5);
 }
 
 /*////////////////////////////////////////////*/
