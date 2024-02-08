@@ -128,7 +128,6 @@ fieldset{
 #roomType, #DesignCategory{
     border: 1px solid black;
     border-radius: 5px;
-    width: 110px;
     font-family: 'Courier New', Courier, monospace;
     padding-left: 8px;
     margin-left: 4px ;
@@ -136,4 +135,11 @@ fieldset{
 }
 #COLOR{
     width: 200px;
+}
+
+#roomType{
+    width: 120px;
+}
+#DesignCategory{
+    width: 180px;
 }
