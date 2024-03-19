@@ -1,0 +1,101 @@
+.dropdown:hover .dropdown-content {
+  display: block;
+  margin: 0;
+
+}
+
+.clientInfo{
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  margin: 20px;
+  transition: 0.5s ease;
+}
+
+.clientInfo span{
+  font-weight: bolder;
+  color:#881817;
+}
+
+
+.clientInfo a{
+  text-decoration: none;
+  color: black;
+}
+
+.clientInfo:hover{
+  transform: scale(1.05);
+  background-color: rgba(255,255,255,0.5);
+}
+
+/*////////////////////////////////////////////*/
+.desHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  margin: 10px;
+padding: 10px;
+width: 95%;
+
+}
+
+.designer{
+  margin: auto;
+padding: 10px;
+width: 95%;
+}
+
+.filter{
+  display: flex;
+  align-items: center;
+}
+
+.table1 , .desHeader , .clientInfo{
+  width: 80%;
+  margin: auto;
+}
+table tr td img{
+  width: 10em;
+}
+
+table tr :not(:has(img)){
+  font-size: 1.3rem;
+  transition: 0.5s ease;
+
+}
+
+
+table tr td:not(:has(img)):hover {
+  font-size: 1.4rem;
+  padding: 0;
+}
+
+table th{
+  background-color: #671614;
+  color: #EFEFEF;
+}
+
+.conRequest{
+  font-size: 1.3rem;
+  margin: auto;
+padding: 10px;
+width: 95%;
+
+}
+
+.conImg{
+      width: 15em;
+
+}
+
+.imagSeprater{
+  background-color: #EFEFEF;
+}
+
+h3{
+    padding: 10px;
+
+}
+
+
