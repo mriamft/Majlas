@@ -24,7 +24,7 @@
         if(mysqli_stmt_prepare($stmt, $sql)){
             die(mysqli_errno($connection));
         }
-        mysqli_stmt_bind_param($stmt,"ssss",$projectName, $designCategory, $projectDescription);
+        mysqli_stmt_bind_param($stmt,"ssss",$projectName,$projectImage, $designCategory, $projectDescription);
         
        
         if (mysqli_stmt_execute($stmt)) {
